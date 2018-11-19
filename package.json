@@ -27,6 +27,9 @@
   "scripts": {
     "test": "grunt nodeunit"
   },
+  "dependencies": {
+    "svg.js": "^2.7.0"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-nodeunit": "~0.2.0",
