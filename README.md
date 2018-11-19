@@ -1,4 +1,4 @@
-# svgm
+# SVGm
 
 Library for parsing and measure elements of Inkscape generated svg files
 
