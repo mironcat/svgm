@@ -1,7 +1,7 @@
 {
   "name": "svgm",
   "description": "Library for parsing and measure elements of Inkscape generated svg files",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/mironcat/svgm",
   "author": {
     "name": "mironcat",
@@ -25,16 +25,11 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt nodeunit"
   },
   "dependencies": {
     "svg.js": "^2.7.0"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.5"
   },
   "keywords": []
 }
