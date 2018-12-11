@@ -1,7 +1,7 @@
 {
   "name": "svgm",
   "description": "Library for parsing and measure elements of Inkscape generated svg files",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "homepage": "https://github.com/mironcat/svgm",
   "author": {
     "name": "mironcat",
@@ -36,6 +36,12 @@
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
     "babel-loader": "^8.0.4",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.6.0",
     "webpack": "^4.26.0"
   },
