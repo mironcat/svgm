@@ -1,7 +1,10 @@
-const path = require('path');  
+'use strict';
+const path = require('path');
+// eslint-disable-next-line no-unused-vars
 const webpack = require('webpack');
 
-module.exports = {  
+module.exports = {
+  mode: 'development',
   entry: './lib/svgm.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -14,10 +17,13 @@ module.exports = {
       {
         test: /\.(js)$/,
         use: {
-        loader: 'babel-loader',
-        options: { presets: ['@babel/preset-env'] }
+          loader: 'babel-loader',
+          options: { presets: ['@babel/preset-env'] }
         }
-     }
+      }
     ]
-  }
-}
+  },
+  node: {
+    fs: 'empty'
+  }  
+};
