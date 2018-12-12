@@ -9,9 +9,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch svgm.js",
-            "program": "${workspaceRoot}/svgm.js",
+            "program": "${workspaceFolder}/lib/index.js",
             "outFiles": [
-                "${workspaceRoot}/.compiled/**/*.js"
+                "${workspaceFolder}/.compiled/**/*.js"
             ]
           },
           {
@@ -20,7 +20,7 @@
             "name": "Launch file",
             "program": "${file}",
             "outFiles": [
-                "${workspaceRoot}/.compiled/**/*.js"
+                "${workspaceFolder}/.compiled/**/*.js"
             ]
           }
     ]
