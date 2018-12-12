@@ -4,7 +4,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './lib/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -23,8 +23,12 @@ module.exports = {
       }
     ]
   },
+  optimization: {
+    // We no not want to minimize our code.
+    minimize: false
+  },  
   externals: {
-    'svg.js':'SVGJS',
+   // 'svg.js':'SVGJS',
     'svgdom':'window'
   },
   node: {
