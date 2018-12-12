@@ -26,7 +26,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack",
+    "compile": "babel lib --out-dir .compiled --source-maps --watch"
   },
   "dependencies": {
     "svg.js": "^2.7.1",
@@ -42,5 +43,10 @@
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }, 
   "keywords": []
 }

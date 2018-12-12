@@ -1,1 +1,0 @@
-{"version":3,"sources":["../lib/index.js"],"names":["svgdom","draw","console","log"],"mappings":"AAAA,SAASA,MAAT,QAAuB,UAAvB;AACA,IAAIC,IAAI,GAACD,MAAM,CAAC,OAAD,CAAf;AACAE,OAAO,CAACC,GAAR,CAAYF,IAAI,CAAC,UAAD,CAAhB","sourcesContent":["import { svgdom } from './canvas';\r\nlet draw=svgdom['debug'];\r\nconsole.log(draw('afasfasf'));"],"file":"index.js"}
