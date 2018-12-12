@@ -4,8 +4,8 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  mode: 'development',
-  entry: './lib/svgm.js',
+  mode: 'production',
+  entry: './lib/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'svgm.min.js',
@@ -22,6 +22,10 @@ module.exports = {
         }
       }
     ]
+  },
+  externals: {
+    'svg.js':'SVGJS',
+    'svgdom':'window'
   },
   node: {
     fs: 'empty'
