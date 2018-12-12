@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'svgm.min.js',
-    libraryTarget: 'umd',
+    // libraryTarget: 'umd',
     library: 'svgm'
   },
   module: {
