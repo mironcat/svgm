@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getProps = getProps;
 exports.getLabels = getLabels;
+exports.dist = dist;
 var MTYPE = 'measure';
 
 function getProps(item, scalefactor, SVG) {
@@ -69,7 +70,7 @@ function getMeasures(item, idtext, scalefactor, SVG) {
     rect: ['w', 'h', 'area', 'p', 'c'],
     ellipse: ['area', 'w', 'h', 'p', 'c'],
     circle: ['area', 'w', 'h', 'c', 'diameter'],
-    path: ['area', 'l', 'h'],
+    path: ['area', 'l', 'h', 'angle'],
     line: ['l', 'h'],
     text: ['t', 'y'],
     image: ['file', 'folder'],
@@ -129,7 +130,6 @@ function getMeasures(item, idtext, scalefactor, SVG) {
 function measure(item, char, scalefactor, SVG) {
   var attributes = item.attr();
   var value = 0;
-  var type = 'na';
 
   switch (char) {
     case 'ellipse-c':
@@ -252,6 +252,11 @@ function measure(item, char, scalefactor, SVG) {
     case 'path-l':
       value = item.length() / scalefactor; // debugger;
 
+      break;
+
+    case 'path-anlge':
+      debugger;
+      value = calcPathAngle(item.node) / scalefactor;
       break;
 
     case 'text-t':

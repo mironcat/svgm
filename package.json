@@ -40,7 +40,7 @@
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.2",
-    "@babel/node": "^7.2.0",
+    "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.0",
     "babel-loader": "^8.0.4",
     "jest": "^23.6.0",
@@ -50,6 +50,10 @@
   "babel": {
     "presets": [
       "@babel/preset-env"
+    ],
+    "ignore": [
+      "**/__tests__",
+      "**/*.test.js"
     ]
   },
   "keywords": []
