@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: './lib/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../svgm-html/dist'),
     filename: 'svgm.min.js',
     // libraryTarget: 'umd',
     library: 'svgm'
