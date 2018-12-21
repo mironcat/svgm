@@ -1,3 +1,5 @@
+[![DOI](https://www.zenodo.org/badge/158267493.svg)](https://www.zenodo.org/badge/latestdoi/158267493)
+
 # SVGm
 
 Library for parsing and measure elements of Inkscape generated svg files
