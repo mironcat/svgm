@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2475466.svg)](https://doi.org/10.5281/zenodo.2475466)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2527041.svg)](https://doi.org/10.5281/zenodo.2527041)
 # SVGm
 
 Library for parsing and measure elements of Inkscape generated svg files
