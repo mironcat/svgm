@@ -15,9 +15,8 @@ import { getResults } from "./prepres";
 function prepareSVG (rawSvg, filename) {
   let mode = "html";
   //debugger;
-  if (typeof document === "undefined") mode = "node";
-
-    let SVG = svgdom[mode](rawSvg); //mode of svg dom: node or html
+  // if (typeof document === "undefined") mode = "node";
+  let SVG = svgdom(rawSvg); //mode of svg dom: node or html
   //groups with scalebars
   let groups = getGroups(SVG);
 

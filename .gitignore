@@ -1,11 +1,2 @@
 node_modules
-
-.compiled/
-.compiled/index.js
-.compiled/index.js.map
-.compiled/lib.js
-.compiled/measures.js
-.compiled/test.js
-.compiled/test.js.map
-.compiled/canvas.js.map
-.compiled/canvas.js
+_compiled

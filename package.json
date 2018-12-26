@@ -20,18 +20,17 @@
       "url": "https://github.com/mironcat/svgm/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "src/index.js",
+  "main": "src/main.js",
   "engines": {
     "node": ">= 0.8.0"
   },
   "scripts": {
     "test": "jest",
     "build": "webpack",
-    "compile": "babel lib --out-dir .compiled --source-maps --watch"
+    "compile": "babel lib --out-dir _compiled --source-maps --watch"
   },
   "dependencies": {
-    "svg.js": "^2.7.1",
-    "svgdom": "0.0.15"
+    "svg.js": "^2.7.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",

@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
-  entry: './lib/index.js',
+  entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, '../svgm-html/dist'),
     filename: 'svgm.min.js',
@@ -25,7 +25,7 @@ module.exports = {
   },
   optimization: {
     // We no not want to minimize our code.
-    minimize: false
+    minimize: true
   },  
   externals: {
    // 'svg.js':'SVGJS',
