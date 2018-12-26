@@ -1,7 +1,7 @@
 {
   "name": "svgm",
   "description": "Library for parsing and measure elements of Inkscape generated svg files",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "homepage": "https://github.com/mironcat/svgm",
   "author": {
     "name": "mironcat",

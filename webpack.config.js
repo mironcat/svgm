@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, '../svgm-html/dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'svgm.min.js',
     // libraryTarget: 'umd',
     library: 'svgm'
@@ -28,8 +28,7 @@ module.exports = {
     minimize: true
   },  
   externals: {
-   // 'svg.js':'SVGJS',
-    'svgdom':'window'
+   // 'svg.js':'SVGJS'
   },
   node: {
     fs: 'empty'
