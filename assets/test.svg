@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="test.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect48"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect16"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect12"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect48-1"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect48-1-4"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="39.874989"
+     inkscape:cy="709.72274"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g183"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="85.590356,216.33132"
+       orientation="0,1"
+       id="guide44"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g102">
+      <image
+         style="stroke-width:7.06071329"
+         width="76.743896"
+         height="69.549156"
+         preserveAspectRatio="none"
+         xlink:href="file:///D:/ROOT/AeroFS/DB-Image/BRW/002/BRW-002-L_01.tif"
+         id="image30"
+         x="8.8464594"
+         y="11.119525"
+         sodipodi:absref="D:\ROOT\AeroFS\DB-Image\BRW\002\BRW-002-L_01.tif" />
+      <path
+         inkscape:label="scalebar=100"
+         inkscape:original-d="m 47.247024,69.470145 c 5.327366,-0.01207 10.654469,-0.02389 15.981306,-0.03544"
+         inkscape:path-effect="#path-effect48"
+         inkscape:connector-curvature="0"
+         id="path46"
+         d="m 47.247024,69.470145 c 5.327367,-0.01181 10.65447,-0.02363 15.981306,-0.03544"
+         style="fill:#00c0af;fill-opacity:1;stroke:#ff0000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+      <ellipse
+         inkscape:label="limb"
+         ry="24.284971"
+         rx="26.930803"
+         cy="40.448654"
+         cx="47.908485"
+         id="path68"
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.30000004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill">
+        <desc
+           id="desc187">b</desc>
+      </ellipse>
+    </g>
+    <g
+       id="g178">
+      <image
+         style="stroke-width:7.06071377"
+         width="76.743889"
+         height="69.549156"
+         preserveAspectRatio="none"
+         xlink:href="file:///D:/ROOT/AeroFS/DB-Image/BRW/003/BRW-003-P_01.tif"
+         id="image41"
+         x="97.402107"
+         y="11.119525"
+         sodipodi:absref="D:\ROOT\AeroFS\DB-Image\BRW\003\BRW-003-P_01.tif" />
+      <path
+         inkscape:label="scalebar=100"
+         inkscape:original-d="m 135.80035,69.237265 c 5.32737,-0.01207 10.65447,-0.02389 15.98131,-0.03544"
+         inkscape:path-effect="#path-effect48-1"
+         inkscape:connector-curvature="0"
+         id="path46-3"
+         d="m 135.80035,69.237265 c 5.32737,-0.01181 10.65447,-0.02363 15.98131,-0.03544"
+         style="fill:#00c0af;fill-opacity:1;stroke:#ff0000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+      <ellipse
+         inkscape:label="limb"
+         ry="27.497768"
+         rx="29.671131"
+         cy="39.976189"
+         cx="135.59895"
+         id="path68-0"
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.30000004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill">
+        <desc
+           id="desc185">a</desc>
+      </ellipse>
+    </g>
+    <g
+       id="g183">
+      <image
+         style="stroke-width:7.02722931"
+         width="77.109566"
+         height="69.880554"
+         preserveAspectRatio="none"
+         xlink:href="file:///D:/ROOT/AeroFS/DB-Image/BRW/004/BRW-004-L_01.tif"
+         id="image112"
+         x="8.8464594"
+         y="80.668678"
+         sodipodi:absref="D:\ROOT\AeroFS\DB-Image\BRW\004\BRW-004-L_01.tif" />
+      <path
+         inkscape:label="scalebar=100"
+         inkscape:original-d="m 47.503771,138.90353 c 5.32737,-0.0121 10.654472,-0.0239 15.981313,-0.0354"
+         inkscape:path-effect="#path-effect48-1-4"
+         inkscape:connector-curvature="0"
+         id="path46-3-1"
+         d="m 47.503771,138.90353 c 5.327371,-0.0118 10.654473,-0.0236 15.981313,-0.0354"
+         style="fill:#00c0af;fill-opacity:1;stroke:#ff0000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+      <ellipse
+         inkscape:label="limb"
+         ry="23.822813"
+         rx="26.797983"
+         cy="107.03656"
+         cx="46.834656"
+         id="path68-0-0"
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.30000004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill">
+        <desc
+           id="desc189">a</desc>
+      </ellipse>
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.2083025;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect91"
+         width="102"
+         height="42.310738"
+         x="105.08115"
+         y="93.214241" />
+    </g>
+  </g>
+</svg>
