@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 'use strict';
-import { getLabels } from './measures';
+import { getLabels } from "./itemprops";
 function getGroups(SVG) {
     /**
      * iteration and check path, rects and lines for scalebar label

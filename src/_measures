@@ -7,7 +7,7 @@
  */
 'use strict';
 const MTYPE='measure';
-function getProps(item, scalefactor, SVG) {
+function getProps(item, scalefactor) {
     // body...
     let labels = getLabels(item);
     let label = labels.label;
@@ -20,7 +20,7 @@ function getProps(item, scalefactor, SVG) {
         id,
         label
     };
-    let measures = getMeasures(item, id, scalefactor, SVG);
+    let measures = getMeasures(item, id, scalefactor);
     if (measures) el.measures = measures;
 
     let desc = SVG.select('desc', item.node).members[0];
@@ -54,7 +54,7 @@ function getLabels(item) {
         labelvalue
     };
 }
-function getMeasures(item, idtext, scalefactor, SVG) {
+function getMeasures(item, idtext, scalefactor) {
     let itemtype = item.type;
     let arr = idtext.split('-');
     //получаем массив символов измерений
@@ -62,7 +62,7 @@ function getMeasures(item, idtext, scalefactor, SVG) {
         rect: ['w', 'h', 'area', 'p', 'c'],
         ellipse: ['area', 'w', 'h', 'p', 'c'],
         circle: ['area', 'w', 'h', 'c', 'diameter'],
-        path: ['area', 'l', 'h'],
+        path: ['area', 'l', 'h','angle'],
         line: ['l', 'h'],
         text: ['t', 'y'],
         image: ['file', 'folder'],
@@ -103,7 +103,7 @@ function getMeasures(item, idtext, scalefactor, SVG) {
 
     let measures = {};
     chars.forEach((ch) => {
-        measures[ch] = measure(item, itemtype + "-" + ch, scalefactor, SVG);
+        measures[ch] = measure(item, itemtype + "-" + ch, scalefactor);
         //measures.push(measure(item, ch));
     });
     //debugger;
@@ -119,7 +119,7 @@ function getMeasures(item, idtext, scalefactor, SVG) {
         return matchingElements;
     }
 }
-function measure(item, char, scalefactor, SVG) {
+function measure(item, char, scalefactor) {
     let attributes = item.attr();
     var value = 0;
     let type = 'na';
@@ -210,6 +210,14 @@ function measure(item, char, scalefactor, SVG) {
             value = item.length() / scalefactor;
             // debugger;
             break;
+        case 'path-angle':
+            var points = item.array().value;
+            if (points.length!=3) {
+             value = "err. path-angle must be with 3 points"   
+            } else {
+              value = calcAngle(points);
+            }
+            break;            
         case 'text-t':
             if (item.node.childNodes.length > 1) {
                 let tspan = SVG.select('tspan', item.node).members[0].node.textContent;
@@ -261,6 +269,9 @@ function measure(item, char, scalefactor, SVG) {
     } else {
         return 'нет измерений';
     }
+}
+function calcAngle(path) {
+    
 }
 //----------------------- Line length-------------------------------------
 function dist(point1, point2) {

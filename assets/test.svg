@@ -15,7 +15,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="test.svg">
   <defs
      id="defs2">
@@ -77,9 +77,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="39.874989"
-     inkscape:cy="709.72274"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="33.55444"
+     inkscape:cy="1070.2522"
      inkscape:document-units="mm"
      inkscape:current-layer="g183"
      showgrid="false"
@@ -184,7 +184,7 @@
          y="80.668678"
          sodipodi:absref="D:\ROOT\AeroFS\DB-Image\BRW\004\BRW-004-L_01.tif" />
       <path
-         inkscape:label="scalebar=100"
+         inkscape:label="scalebar=10"
          inkscape:original-d="m 47.503771,138.90353 c 5.32737,-0.0121 10.654472,-0.0239 15.981313,-0.0354"
          inkscape:path-effect="#path-effect48-1-4"
          inkscape:connector-curvature="0"
@@ -209,6 +209,13 @@
          height="42.310738"
          x="105.08115"
          y="93.214241" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:0.25600001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.768, 0.768;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 7.2029138,3.086963 -7.00732464,6.979402 8.55732594,-0.0226"
+         id="path899-angle"
+         inkscape:connector-curvature="0"
+         inkscape:label="angle"
+         sodipodi:nodetypes="ccc" />
     </g>
   </g>
 </svg>

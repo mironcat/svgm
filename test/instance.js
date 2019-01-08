@@ -1,9 +1,9 @@
-const SVG = require("svg.js");
+
 function getTestSVGcontent(filepath) {
   //read test .svg file
   return require("fs").readFileSync(filepath, "utf8");
 }
-function getSVGinstance(rawSVG) {
+function getSVGinstance(rawSVG,SVG) {
   const window = require("svgdom");
   const nodeSVG = SVG(window);
   const document = window.document;

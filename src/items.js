@@ -6,15 +6,15 @@
  * Licensed under the MIT license.
  */
 'use strict';
-import { getProps } from './measures';
-function getGroupItems(groups, SVG) {
+import { getProps } from './itemprops';
+function getGroupItems(groups) {
     const gi =[];
     groups.forEach((groupitem, i) => {
-        gi.push(getItems(groupitem, SVG));
+        gi.push(getItems(groupitem));
     });
     return gi;
 };
-function getItems(groupitem,SVG) {
+function getItems(groupitem) {
     ///sfaf
     let items = {
         scalefactor: groupitem.scalefactor,
