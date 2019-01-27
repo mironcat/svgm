@@ -45,6 +45,9 @@ function getLabels(item) {
     return {
       label: attributes["id"]
     };
+  if (typeof (labeltext) == 'number') return {
+    label: labeltext
+  };
   let arr = labeltext.split("=");
   /*    if (arr.length) {arr = labeltext.split('-')}*/
 

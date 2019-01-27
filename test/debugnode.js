@@ -5,7 +5,7 @@ import { getGroups } from "../src/groups";
 import { getGroupItems } from "../src/items";
 import { getResults } from "../src/prepres";
 //read test .svg file
-const rawSVG = getTestSVGcontent("./assets/test.svg");
+const rawSVG = getTestSVGcontent("./assets/test3.svg");
 const SVG = getSVGinstance(rawSVG, SVGJS);
 let groups = getGroups(SVG);
 //extract and measure elements

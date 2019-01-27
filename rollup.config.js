@@ -1,16 +1,22 @@
-/* import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs'; */
+import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 import buble from 'rollup-plugin-buble';
 import pkg from './package.json';
 import json from 'rollup-plugin-json';
+import { uglify } from "rollup-plugin-uglify";
+const production = !process.env.ROLLUP_WATCH;
 export default [
   // browser-friendly UMD build
-/*   {
+  {
     input: "src/main.js",
+    external: ["svg.js"],
     output: {
-      name: "svgd",
+      name: "svgm",
       file: pkg.browser,
-      format: "umd"
+      format: "umd",
+      globals: {
+        'svg.js': 'SVG'
+      }
     },
     plugins: [
       resolve(), // so Rollup can find `ms`
@@ -19,16 +25,10 @@ export default [
         // transpile ES2015+ to ES5
         exclude: ["node_modules/**"]
       }),
-      json()
+      json(),
+      production && uglify(), // minify, but only in production
     ]
-  }, */
-
-  // CommonJS (for Node) and ES module (for bundlers) build.
-  // (We could have three entries in the configuration array
-  // instead of two, but it's quicker to generate multiple
-  // builds from a single configuration where possible, using
-  // an array for the `output` option, where we can specify
-  // `file` and `format` for each target)
+  },
   {
     input: "src/main.js",
     external: ["svgdom","svg.js"],
@@ -43,6 +43,7 @@ export default [
       json()
     ]
   },
+  // compile files for debuggin in node with visual studio code
   {
     input: "test/debugnode.js",
     external: ["svgdom", "svg.js"],
