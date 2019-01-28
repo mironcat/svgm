@@ -4,7 +4,8 @@ import buble from 'rollup-plugin-buble';
 import pkg from './package.json';
 import json from 'rollup-plugin-json';
 import { uglify } from "rollup-plugin-uglify";
-const production = !process.env.ROLLUP_WATCH;
+const production = process.env.PRODUCTION;
+console.log('production:' + production);
 export default [
   // browser-friendly UMD build
   {
@@ -25,8 +26,8 @@ export default [
         // transpile ES2015+ to ES5
         exclude: ["node_modules/**"]
       }),
-      json(),
-      production && uglify(), // minify, but only in production
+      //json(),
+      production && uglify() // minify, but only in production
     ]
   },
   {

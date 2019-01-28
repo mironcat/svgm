@@ -5,10 +5,11 @@ function getTestSVGcontent(filepath) {
 }
 function getSVGinstance(rawSVG,SVG) {
   const window = require("svgdom");
-  const nodeSVG = SVG(window);
+  const nodeSVG = new SVG(window);
   const document = window.document;
   // create svg.js instance
   const draw = nodeSVG(document.documentElement);
+  draw.clear();
   draw.svg(rawSVG);
   return nodeSVG;
 }

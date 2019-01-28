@@ -22,7 +22,7 @@
   ],
   "main": "dist/svgd.cjs.js",
   "devs": "dist/svgd.dev.js",
-  "browser": "dist/svgm.min.js",
+  "browser": "./../svgm-html/dist/svgm.min.js",
   "dependencies": {
     "svg.js": "^2.7.1",
     "svgdom": "0.0.15"
@@ -36,9 +36,9 @@
     "rollup-plugin-uglify": "^6.0.2"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c --environment PRODUCTION",
     "dev": "rollup -c -w",
-    "pretest": "npm run build"
+    "prebuild": "rollup -c"
   },
   "files": [
     "dist"

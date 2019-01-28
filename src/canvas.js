@@ -12,9 +12,10 @@ function svgdom(rawSVG = "") {
     svgcanvas.setAttribute("id", "svgcanvas");
     svgcanvas.setAttribute("hidden", "true");
     document.body.appendChild(svgcanvas);
-    SVG("svgcanvas")
-      .size("800", "900")
-      .svg(rawSVG); // прорисовка svg
-    return SVG;
+  const draw = new SVG("svgcanvas");
+    draw.clear();
+    draw.svg(rawSVG); // прорисовка svg
+    debugger;
+  return draw;
 };
 export {svgdom};
