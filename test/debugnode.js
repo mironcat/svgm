@@ -20,6 +20,5 @@ const filename = "./assets/test3.svg";
 const rawSVG = getTestSVGcontent(filename);
 
 const res = testSVGprepare(rawSVG, filename);
-const res2 = testSVGprepare('', filename);
 if (Array.isArray(res)) console.log("1. OK. res is Array"); else console.log("error");
 

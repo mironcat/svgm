@@ -205,7 +205,8 @@ function getLabels(item) {
 }
 function getMeasures(item, idtext, scalefactor) {
   var itemtype = item.type;
-  var arr = idtext.split("-");
+  var arr = idtext.split(":");
+  console.log(arr);
   //получаем массив символов измерений
   var setchars = {
     rect: ["w", "h", "area", "p", "c"],

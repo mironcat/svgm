@@ -193,7 +193,8 @@ function getLabels(item) {
 }
 function getMeasures(item, idtext, scalefactor) {
   var itemtype = item.type;
-  var arr = idtext.split("-");
+  var arr = idtext.split(":");
+  console.log(arr);
   //получаем массив символов измерений
   var setchars = {
     rect: ["w", "h", "area", "p", "c"],
@@ -656,6 +657,5 @@ var filename = "./assets/test3.svg";
 var rawSVG = getTestSVGcontent(filename);
 
 var res = testSVGprepare(rawSVG, filename);
-var res2 = testSVGprepare('', filename);
 if (Array.isArray(res)) { console.log("1. OK. res is Array"); } else { console.log("error"); }
 //# sourceMappingURL=svgd.dev.js.map
