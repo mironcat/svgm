@@ -20,7 +20,7 @@ console.log(parsed_data);
 _(Coming soon)_
 
 ## Release History
-_0.7.0_ - migrate to rollup
+_0.7.1_ - migrate to rollup
 
 ## License
 Copyright (c) 2019 mironcat  
