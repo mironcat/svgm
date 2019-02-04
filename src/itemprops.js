@@ -79,8 +79,8 @@ function getMeasures(item, idtext, scalefactor) {
       rect: ["w", "h"],
       ellipse: ["w", "h"],
       circle: ["diameter"],
-      path: ["l"],
-      line: ["l"],
+      path: ["l", "start"],
+      line: ["l","start"],
       text: ["t"],
       image: ["file", "folder"],
       g: ["count", "d"]
